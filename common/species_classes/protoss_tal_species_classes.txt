@@ -1,0 +1,13 @@
+
+Taldarim = {
+	archetype = BIOLOGICAL
+	randomized = yes
+	portraits = {
+    	taldarim
+	}
+	non_randomized_portraits = {
+		taldarim
+	}
+	graphical_culture = protoss_tal_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}

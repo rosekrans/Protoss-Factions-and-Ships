@@ -1,0 +1,4 @@
+entity = {
+	name = "protoss_empty_entity"
+	pdxmesh = "protoss_empty_mesh"
+}

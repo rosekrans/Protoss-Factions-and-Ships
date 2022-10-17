@@ -1,0 +1,79 @@
+objectTypes = {
+    pdxmesh = {
+        name = "protoss_puri_01_colossus_mesh"
+        file = "gfx/models/ships/colossus/protoss_puri_01/protoss_puri_01_colossus.mesh"
+        scale = 1
+
+        meshsettings = {
+            name = "cybrosbody3"
+            index = 0
+            texture_diffuse = "cybrosa_diff.dds"
+            texture_normal = "cybrosa_norm.dds"
+            texture_specular = "cybrosa_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "cybrosbody3"
+            index = 1
+            texture_diffuse = "cybrosa_diff.dds"
+            texture_normal = "cybrosa_norm.dds"
+            texture_specular = "cybrosa_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "cybrosbody3"
+            index = 2
+            texture_diffuse = "cybrosa_diff.dds"
+            texture_normal = "cybrosa_norm.dds"
+            texture_specular = "cybrosa_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "cybrosbody3"
+            index = 3
+            texture_diffuse = "cybrosa_diff.dds"
+            texture_normal = "cybrosa_norm.dds"
+            texture_specular = "cybrosa_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "cybrosbody3"
+            index = 4
+            texture_diffuse = "cybrosa_diff.dds"
+            texture_normal = "cybrosa_norm.dds"
+            texture_specular = "cybrosa_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "cybrosbody3"
+            index = 5
+            texture_diffuse = "cybrosb_diff.dds"
+            texture_normal = "cybrosb_norm.dds"
+            texture_specular = "cybrosb_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "cybrosbody3"
+            index = 6
+            texture_diffuse = "cybrosb_diff.dds"
+            texture_normal = "cybrosb_norm.dds"
+            texture_specular = "cybrosb_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "cybrosbody3"
+            index = 7
+            texture_diffuse = "smx2_cybros_pylon_crystal_diff.dds"
+            texture_normal = "smx2_cybros_pylon_crystal_norm.dds"
+            texture_specular = "smx2_cybros_pylon_crystal_spec.dds"
+            shader = "PdxMeshShip"
+        }
+    }
+}

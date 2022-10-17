@@ -1,0 +1,944 @@
+objectTypes = {
+	
+	# Color variant #06
+	
+	
+	pdxmesh = {
+		name = "protoss_puri_01_titan_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_titan.mesh"
+		scale = 1.0
+		
+        meshsettings = {
+            name = "Dummy01_disc"
+            index = 0
+            texture_diffuse = "puri_shield_diffuse.dds"
+            texture_normal = "puri_shield_normal.dds"
+            texture_specular = "puri_shield_specular.dds"
+            shader = "PdxMeshAlphaAdditive"
+        }
+
+        meshsettings = {
+            name = "Dummy01_disc"
+            index = 1
+            texture_diffuse = "mothership_purifier_collection_diff.dds"
+            texture_normal = "mothership_purifier_collection_norm.dds"
+            texture_specular = "mothership_purifier_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Dummy01_disc"
+            index = 2
+            texture_diffuse = "mothership_purifier_collection_newpart_diff.dds"
+            texture_normal = "mothership_purifier_collection_newpart_norm.dds"
+            texture_specular = "mothership_purifier_collection_newpart_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Dummy01_disc"
+            index = 3
+            texture_diffuse = "mothership_purifier_collection_diff.dds"
+            texture_normal = "mothership_purifier_collection_norm.dds"
+            texture_specular = "mothership_purifier_collection_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_puri_01_battleship_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_battleship.mesh"
+		scale = 1.0
+		
+        meshsettings = {
+            name = "Mesh"
+            index = 0
+            texture_diffuse = "carrierhdpuri_diff.dds"
+            texture_normal = "carrierhdpuri_norm.dds"
+            texture_specular = "carrierhdpuri_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh"
+            index = 1
+            texture_diffuse = "puri_shield_diffuse.dds"
+            texture_normal = "puri_shield_normal.dds"
+            texture_specular = "puri_shield_specular.dds"
+            shader = "PdxMeshAlphaAdditive"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_puri_01_colony_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_colony.mesh"
+		scale = 1.0
+		
+        meshsettings = {
+            name = "delete"
+            index = 0
+            texture_diffuse = "escapeshippuri_diff.dds"
+            texture_normal = "escapeshippuri_norm.dds"
+            texture_specular = "escapeshippuri_spec.dds"
+            shader = "PdxMeshShip"
+        }
+    }
+
+	pdxmesh = {
+		name = "protoss_puri_01_transportship_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_transport.mesh"
+		scale = 1.0
+		
+        meshsettings = {
+            name = "Bone_Ship"
+            index = 0
+            texture_diffuse = "shuttle_purifier_diffuse.dds"
+            texture_normal = "Shuttle_purifier_normal.dds"
+            texture_specular = "shuttle_specular.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_puri_01_turrets_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_obserbstation.mesh"
+		scale = 1.0
+		
+        meshsettings = {
+            name = "Mesh.001"
+            index = 0
+            texture_diffuse = "warpprism_purifier_collection_diff.dds"
+            texture_normal = "warpprism_purifier_collection_norm.dds"
+            texture_specular = "warpprism_purifier_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 1
+            texture_diffuse = "puri_shield_diffuse.dds"
+            texture_normal = "puri_shield_normal.dds"
+            texture_specular = "puri_shield_specular.dds"
+            shader = "PdxMeshAlphaAdditive"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_puri_01_citadel_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_citadel.mesh"
+		scale = 3.3
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 0
+            texture_diffuse = "mothership_purifier_collection_diff.dds"
+            texture_normal = "mothership_purifier_collection_norm.dds"
+            texture_specular = "mothership_purifier_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 1
+            texture_diffuse = "smx2_cybros_pylon_crystal_diff.dds"
+            texture_normal = "smx2_cybros_pylon_crystal_norm.dds"
+            texture_specular = "smx2_cybros_pylon_crystal_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 2
+            texture_diffuse = "voidray_purifier_collection_diff.dds"
+            texture_normal = "voidray_purifier_collection_norm.dds"
+            texture_specular = "voidray_purifier_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 3
+            texture_diffuse = "cybrosb_diff.dds"
+            texture_normal = "cybrosb_norm.dds"
+            texture_specular = "cybrosb_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 4
+            texture_diffuse = "cybrosb_diff.dds"
+            texture_normal = "cybrosb_norm.dds"
+            texture_specular = "cybrosb_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 5
+            texture_diffuse = "stargate_purifier_diffuse.dds"
+            texture_normal = "stargate_purifier_normal.dds"
+            texture_specular = "stargate_purifier_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 6
+            texture_diffuse = "pylon_purifier_diffuse.dds"
+            texture_normal = "pylon_purifier_normal.dds"
+            texture_specular = "pylon_purifier_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 7
+            texture_diffuse = "pylon_purifier_diffuse.dds"
+            texture_normal = "pylon_purifier_normal.dds"
+            texture_specular = "pylon_purifier_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 8
+            texture_diffuse = "mothership_purifier_collection_diff.dds"
+            texture_normal = "mothership_purifier_collection_norm.dds"
+            texture_specular = "mothership_purifier_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 9
+            texture_diffuse = "mothership_purifier_collection_newpart_diff.dds"
+            texture_normal = "mothership_purifier_collection_newpart_norm.dds"
+            texture_specular = "mothership_purifier_collection_newpart_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_puri_01_starfortress_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_starfortress.mesh"
+		scale = 2.8
+		
+        meshsettings = {
+            name = "Bldg_Protoss_Nexus_01"
+            index = 0
+            texture_diffuse = "nexus_purifier_diffuse.dds"
+            texture_normal = "nexus_purifier_normal.dds"
+            texture_specular = "nexus_purifier_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Bldg_Protoss_Nexus_01"
+            index = 1
+            texture_diffuse = "stargate_purifier_diffuse.dds"
+            texture_normal = "stargate_purifier_normal.dds"
+            texture_specular = "stargate_purifier_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Bldg_Protoss_Nexus_01"
+            index = 2
+            texture_diffuse = "pylon_purifier_diffuse.dds"
+            texture_normal = "pylon_purifier_normal.dds"
+            texture_specular = "pylon_purifier_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Bldg_Protoss_Nexus_01"
+            index = 3
+            texture_diffuse = "pylon_purifier_diffuse.dds"
+            texture_normal = "pylon_purifier_normal.dds"
+            texture_specular = "pylon_purifier_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Bldg_Protoss_Nexus_01"
+            index = 4
+            texture_diffuse = "nexus_purifier_diffuse.dds"
+            texture_normal = "nexus_purifier_normal.dds"
+            texture_specular = "nexus_purifier_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Bldg_Protoss_Nexus_01"
+            index = 5
+            texture_diffuse = "nexus_purifier_diffuse.dds"
+            texture_normal = "nexus_purifier_normal.dds"
+            texture_specular = "nexus_purifier_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Bldg_Protoss_Nexus_01"
+            index = 6
+            texture_diffuse = "mothership_purifier_collection_diff.dds"
+            texture_normal = "mothership_purifier_collection_norm.dds"
+            texture_specular = "mothership_purifier_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Bldg_Protoss_Nexus_01"
+            index = 7
+            texture_diffuse = "mothership_purifier_collection_newpart_diff.dds"
+            texture_normal = "mothership_purifier_collection_newpart_norm.dds"
+            texture_specular = "mothership_purifier_collection_newpart_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Bldg_Protoss_Nexus_01"
+            index = 8
+            texture_diffuse = "mothership_purifier_collection_diff.dds"
+            texture_normal = "mothership_purifier_collection_norm.dds"
+            texture_specular = "mothership_purifier_collection_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_puri_01_starhold_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_starhold.mesh"
+		scale = 2.3
+		
+        meshsettings = {
+            name = "Mesh.002"
+            index = 0
+            texture_diffuse = "puri_shield_diffuse.dds"
+            texture_normal = "puri_shield_normal.dds"
+            texture_specular = "puri_shield_specular.dds"
+            shader = "PdxMeshAlphaAdditive"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 1
+            texture_diffuse = "puri_shield_diffuse.dds"
+            texture_normal = "puri_shield_normal.dds"
+            texture_specular = "puri_shield_specular.dds"
+            shader = "PdxMeshAlphaAdditive"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 2
+            texture_diffuse = "puri_shield_diffuse.dds"
+            texture_normal = "puri_shield_normal.dds"
+            texture_specular = "puri_shield_specular.dds"
+            shader = "PdxMeshAlphaAdditive"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 3
+            texture_diffuse = "pylon_purifier_diffuse.dds"
+            texture_normal = "pylon_purifier_normal.dds"
+            texture_specular = "pylon_purifier_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 4
+            texture_diffuse = "pylon_purifier_diffuse.dds"
+            texture_normal = "pylon_purifier_normal.dds"
+            texture_specular = "pylon_purifier_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 5
+            texture_diffuse = "pylon_purifier_diffuse.dds"
+            texture_normal = "pylon_purifier_normal.dds"
+            texture_specular = "pylon_purifier_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 6
+            texture_diffuse = "stargate_purifier_diffuse.dds"
+            texture_normal = "stargate_purifier_normal.dds"
+            texture_specular = "stargate_purifier_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_puri_01_starport_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_starport.mesh"
+		scale = 2.0
+		
+        meshsettings = {
+            name = "Mesh.001"
+            index = 0
+            texture_diffuse = "stargate_purifier_diffuse.dds"
+            texture_normal = "stargate_purifier_normal.dds"
+            texture_specular = "stargate_purifier_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 1
+            texture_diffuse = "pylon_purifier_diffuse.dds"
+            texture_normal = "pylon_purifier_normal.dds"
+            texture_specular = "pylon_purifier_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 2
+            texture_diffuse = "pylon_purifier_diffuse.dds"
+            texture_normal = "pylon_purifier_normal.dds"
+            texture_specular = "pylon_purifier_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 3
+            texture_diffuse = "pylon_purifier_diffuse.dds"
+            texture_normal = "pylon_purifier_normal.dds"
+            texture_specular = "pylon_purifier_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_puri_01_outpost_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_outpost.mesh"
+		scale = 2.0
+		
+        meshsettings = {
+            name = "Bldg_Protoss_Pylon_Crystal_02"
+            index = 0
+            texture_diffuse = "pylon_purifier_diffuse.dds"
+            texture_normal = "pylon_purifier_normal.dds"
+            texture_specular = "pylon_purifier_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Bldg_Protoss_Pylon_Crystal_02"
+            index = 1
+            texture_diffuse = "pylon_purifier_diffuse.dds"
+            texture_normal = "pylon_purifier_normal.dds"
+            texture_specular = "pylon_purifier_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Bldg_Protoss_Pylon_Crystal_02"
+            index = 2
+            texture_diffuse = "pylon_purifier_diffuse.dds"
+            texture_normal = "pylon_purifier_normal.dds"
+            texture_specular = "pylon_purifier_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_puri_01_observestation_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_obserbstation.mesh"
+		scale = 2.0
+		
+        meshsettings = {
+            name = "Mesh.001"
+            index = 0
+            texture_diffuse = "warpprism_purifier_collection_diff.dds"
+            texture_normal = "warpprism_purifier_collection_norm.dds"
+            texture_specular = "warpprism_purifier_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 1
+            texture_diffuse = "puri_shield_diffuse.dds"
+            texture_normal = "puri_shield_normal.dds"
+            texture_specular = "puri_shield_specular.dds"
+            shader = "PdxMeshAlphaAdditive"
+		}
+	}
+
+	pdxmesh = {
+		name = "protoss_puri_01_ioncannon_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_ioncannon.mesh"
+		scale = 1.2
+		
+        meshsettings = {
+            name = "CT_CannonMain"
+            index = 0
+            texture_diffuse = "PuriArtCann2_Diff.dds"
+            texture_normal = "PuriArtCann2_Norm.dds"
+            texture_specular = "PuriArtCann2_Spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "CT_CannonMain"
+            index = 1
+            texture_diffuse = "PuriPartCannT_Diff.dds"
+            texture_normal = "PuriPartCannT_Norm.dds"
+            texture_specular = "PuriPartCannT_Spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "CT_CannonMain"
+            index = 2
+            texture_diffuse = "PuriPartCannT_Diff.dds"
+            texture_normal = "PuriPartCannT_Norm.dds"
+            texture_specular = "PuriPartCannT_Spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "CT_CannonMain"
+            index = 3
+            texture_diffuse = "puri_shield_diffuse.dds"
+            texture_normal = "puri_shield_normal.dds"
+            texture_specular = "puri_shield_specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "CT_CannonMain"
+            index = 4
+            texture_diffuse = "PuriArtCann1_Diff.dds"
+            texture_normal = "PuriArtCann1_Norm.dds"
+            texture_specular = "PuriArtCann1_Spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_puri_01_constructor_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_constructor.mesh"
+		scale = 1.3
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 0
+            texture_diffuse = "probe_purifier_portrait_diff.dds"
+            texture_normal = "probe_purifier_portrait_spec.dds"
+            texture_specular = "probe_puri_nm.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 1
+            texture_diffuse = "puri_shield_diffuse.dds"
+            texture_normal = "puri_shield_normal.dds"
+            texture_specular = "puri_shield_specular.dds"
+            shader = "PdxMeshAlphaAdditive"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 2
+            texture_diffuse = "probe_purifier_collection_diff.dds"
+            texture_normal = "probe_purifier_collection_norm.dds"
+            texture_specular = "probe_purifier_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 3
+            texture_diffuse = "puri_shield_diffuse.dds"
+            texture_normal = "puri_shield_normal.dds"
+            texture_specular = "puri_shield_specular.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_puri_01_destroyer_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_destroyer.mesh"
+		scale = 1.0
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 0
+            texture_diffuse = "voidray_purifier_collection_diff.dds"
+            texture_normal = "voidray_purifier_collection_norm.dds"
+            texture_specular = "voidray_purifier_collection_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_puri_01_scienceship_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_science.mesh"
+		scale = 1.0
+
+        meshsettings = {
+            name = "Mesh"
+            texture_diffuse = "observer_purifier_diff.dds"
+            texture_normal = "observer_purifier_norm.dds"
+            texture_specular = "observer_purifier_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_puri_01_station_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_station.mesh"
+		scale = 1.0
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 0
+            texture_diffuse = "mothership_purifier_collection_newpart_diff.dds"
+            texture_normal = "mothership_purifier_collection_newpart_norm.dds"
+            texture_specular = "mothership_purifier_collection_newpart_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 1
+            texture_diffuse = "mothership_purifier_collection_diff.dds"
+            texture_normal = "mothership_purifier_collection_norm.dds"
+            texture_specular = "mothership_purifier_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 2
+            texture_diffuse = "mothership_purifier_collection_diff.dds"
+            texture_normal = "mothership_purifier_collection_norm.dds"
+            texture_specular = "mothership_purifier_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 3
+            texture_diffuse = "gateway_purifier_diffuse.dds"
+            texture_normal = "gateway_normal.dds"
+            texture_specular = "gateway_purifier_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 4
+            texture_diffuse = "gateway_purifier_diffuse.dds"
+            texture_normal = "gateway_normal.dds"
+            texture_specular = "gateway_purifier_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 5
+            texture_diffuse = "PuriPartCannB_Diff.dds"
+            texture_normal = "PuriPartCannB_Norm.dds"
+            texture_specular = "PuriPartCannB_Spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_puri_01_wormhole_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_wormhole.mesh"
+		scale = 1.0
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 0
+            texture_diffuse = "stargate_purifier_diffuse.dds"
+            texture_normal = "stargate_purifier_normal.dds"
+            texture_specular = "stargate_purifier_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "protoss_puri_01_terraform_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_terraform.mesh"
+		scale = 1.0
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 0
+            texture_diffuse = "mothership_purifier_collection_newpart_diff.dds"
+            texture_normal = "mothership_purifier_collection_newpart_norm.dds"
+            texture_specular = "mothership_purifier_collection_newpart_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 1
+            texture_diffuse = "mothership_purifier_collection_diff.dds"
+            texture_normal = "mothership_purifier_collection_norm.dds"
+            texture_specular = "mothership_purifier_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 2
+            texture_diffuse = "mothership_purifier_collection_diff.dds"
+            texture_normal = "mothership_purifier_collection_norm.dds"
+            texture_specular = "mothership_purifier_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 3
+            texture_diffuse = "assimilator_purifier_diffuse.dds"
+            texture_normal = "assimilator_normal.dds"
+            texture_specular = "assimilator_purifier_specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 4
+            texture_diffuse = "puri_shield_diffuse.dds"
+            texture_normal = "puri_shield_normal.dds"
+            texture_specular = "puri_shield_specular.dds"
+            shader = "PdxMeshAlphaAdditive"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 5
+            texture_diffuse = "PuriPartCannB_Diff.dds"
+            texture_normal = "PuriPartCannB_Norm.dds"
+            texture_specular = "PuriPartCannB_Spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "protoss_puri_01_research_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_research.mesh"
+		scale = 1.0
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 0
+            texture_diffuse = "mothership_purifier_collection_newpart_diff.dds"
+            texture_normal = "mothership_purifier_collection_newpart_norm.dds"
+            texture_specular = "mothership_purifier_collection_newpart_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 1
+            texture_diffuse = "mothership_purifier_collection_diff.dds"
+            texture_normal = "mothership_purifier_collection_norm.dds"
+            texture_specular = "mothership_purifier_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 2
+            texture_diffuse = "mothership_purifier_collection_diff.dds"
+            texture_normal = "mothership_purifier_collection_norm.dds"
+            texture_specular = "mothership_purifier_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 3
+            texture_diffuse = "twilightcouncil_purifier_diffuse.dds"
+            texture_normal = "twilightcouncil_purifier_normal.dds"
+            texture_specular = "twilightcouncil_purifier_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 4
+            texture_diffuse = "puri_shield_diffuse.dds"
+            texture_normal = "puri_shield_normal.dds"
+            texture_specular = "puri_shield_specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 5
+            texture_diffuse = "PuriPartCannB_Diff.dds"
+            texture_normal = "PuriPartCannB_Norm.dds"
+            texture_specular = "PuriPartCannB_Spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "protoss_puri_01_mining_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_mining.mesh"
+		scale = 1.0
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 0
+            texture_diffuse = "mothership_purifier_collection_newpart_diff.dds"
+            texture_normal = "mothership_purifier_collection_newpart_norm.dds"
+            texture_specular = "mothership_purifier_collection_newpart_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 1
+            texture_diffuse = "mothership_purifier_collection_diff.dds"
+            texture_normal = "mothership_purifier_collection_norm.dds"
+            texture_specular = "mothership_purifier_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 2
+            texture_diffuse = "mothership_purifier_collection_diff.dds"
+            texture_normal = "mothership_purifier_collection_norm.dds"
+            texture_specular = "mothership_purifier_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 3
+            texture_diffuse = "roboticsupport_purifer_diffuse.dds"
+            texture_normal = "roboticsupport_purifier_normal.dds"
+            texture_specular = "roboticsupport_purifier_specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 4
+            texture_diffuse = "roboticsupport_purifer_diffuse.dds"
+            texture_normal = "roboticsupport_purifier_normal.dds"
+            texture_specular = "roboticsupport_purifier_specular.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "protoss_puri_01_cruiser_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_cruiser.mesh"
+		scale = 1.0
+		
+        meshsettings = {
+            name = "DummyRoot.001"
+            index = 0
+            texture_diffuse = "tempest_purifier_collection_diff.dds"
+            texture_normal = "tempest_purifier_collection_norm.dds"
+            texture_specular = "tempest_purifier_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "DummyRoot.001"
+            index = 1
+            texture_diffuse = "puri_shield_diffuse.dds"
+            texture_normal = "puri_shield_normal.dds"
+            texture_specular = "puri_shield_specular.dds"
+            shader = "PdxMeshAlphaAdditive"
+		}
+	}
+		
+	pdxmesh = {
+		name = "protoss_puri_01_corvette_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_corvette.mesh"
+		scale = 1.0
+		
+        meshsettings = {
+            name = "Dummy01"
+            index = 0
+            texture_diffuse = "t_phoenix_diffuse.dds"
+            texture_normal = "t_phoenix_normals.dds"
+            texture_specular = "t_phoenix_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	
+	pdxmesh = {
+		name = "protoss_puri_01_bomber_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_bomber.mesh"
+		scale = 1.0
+		
+        meshsettings = {
+            name = "Mesh.001"
+            index = 0
+            texture_diffuse = "PuriScout_diff.dds"
+            texture_normal = "PuriScout_norm.dds"
+            texture_specular = "PuriScout_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_puri_01_fighter_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_intercept.mesh"
+		scale = 1.0
+		
+        meshsettings = {
+            name = "Unit_Protoss_Interceptor"
+            index = 0
+            texture_diffuse = "interceptor_purifier_collection_diff.dds"
+            texture_normal = "interceptor_purifier_collection_norm.dds"
+            texture_specular = "interceptor_purifier_collection_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_puri_01_cargo_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_transport.mesh"
+		scale = 1.0
+		
+        meshsettings = {
+            name = "Bone_Ship"
+            index = 0
+            texture_diffuse = "shuttle_purifier_diffuse.dds"
+            texture_normal = "Shuttle_purifier_normal.dds"
+            texture_specular = "shuttle_specular.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "protoss_puri_01_droppod_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_transport.mesh"
+		scale = 1.0
+		
+        meshsettings = {
+            name = "Bone_Ship"
+            index = 0
+            texture_diffuse = "shuttle_purifier_diffuse.dds"
+            texture_normal = "Shuttle_purifier_normal.dds"
+            texture_specular = "shuttle_specular.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+}

@@ -1,0 +1,52 @@
+objectTypes = {
+
+#######  SCX  #######	
+	
+	pdxmesh = {
+		name = "protoss_puri_01_scx_carrier_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_carrier.mesh"
+		scale = 6.0
+		
+        meshsettings = {
+            name = "Mesh"
+            index = 0
+            texture_diffuse = "CarrierOld_Diff.dds"
+            texture_normal = "CarrierOld_norm.dds"
+            texture_specular = "CarrierOld_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_puri_01_scx_dreadnought_mesh"
+		file = "gfx/models/ships/protoss_puri_01/protoss_puri_01_dreadnought.mesh"
+		scale = 6.0
+		
+        meshsettings = {
+            name = "Object66.006"
+            index = 0
+            texture_diffuse = "dreadpuri_diff.dds"
+            texture_normal = "dreadpuri_norm.dds"
+            texture_specular = "dreadpuri_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Object66.006"
+            index = 1
+            texture_diffuse = "tempest_purifier_collection_diff.dds"
+            texture_normal = "tempest_purifier_collection_norm.dds"
+            texture_specular = "tempest_purifier_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Object66.006"
+            index = 2
+            texture_diffuse = "Clolarion_SuperCarrier_Purifier_Extra2_Diffuse.dds"
+            texture_normal = "Clolarion_SuperCarrier_Purifier_Extra2_Normal.dds"
+            texture_specular = "Clolarion_SuperCarrier_Purifier_Extra2_Spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+}

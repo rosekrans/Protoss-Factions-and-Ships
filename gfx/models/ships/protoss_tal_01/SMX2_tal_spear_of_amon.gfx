@@ -1,0 +1,423 @@
+objectTypes = {
+	pdxmesh = {
+		name = "SMX2_tal_spear_of_amon_mesh"
+		file = "gfx/models/ships/protoss_tal_01/SMX2_tal_spear_of_amon.mesh"
+		scale = 1.8
+
+		animation = { id = "opening"		type = "SMX2_tal_spear_of_amon_animation" }
+		
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_1Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_bigwing_diff.dds"
+			texture_normal = "SMX2_tal_spear_bigwing_norm.dds"
+			texture_specular = "SMX2_tal_spear_bigwing_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_2Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_floatingcores_diff.dds"
+			texture_normal = "SMX2_tal_spear_floatingcores_norm.dds"
+			texture_specular = "SMX2_tal_spear_floatingcores_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_3Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_smallwing_diff.dds"
+			texture_normal = "SMX2_tal_spear_smallwing_norm.dds"
+			texture_specular = "SMX2_tal_spear_smallwing_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_4Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_tile_diff.dds"
+			texture_normal = "SMX2_tal_spear_tile_nome.dds"
+			texture_specular = "SMX2_tal_spear_tile_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_5Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_front_floaters_diff.dds"
+			texture_normal = "SMX2_tal_spear_front_floaters_norm.dds"
+			texture_specular = "SMX2_tal_spear_front_floaters_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_10Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_backengine_diff.dds"
+			texture_normal = "SMX2_tal_spear_backengine_norm.dds"
+			texture_specular = "SMX2_tal_spear_backengine_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_11Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_front_floaters_diff.dds"
+			texture_normal = "SMX2_tal_spear_front_floaters_norm.dds"
+			texture_specular = "SMX2_tal_spear_front_floaters_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_12Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_backengine_diff.dds"
+			texture_normal = "SMX2_tal_spear_backengine_norm.dds"
+			texture_specular = "SMX2_tal_spear_backengine_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_13Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_backengine_diff.dds"
+			texture_normal = "SMX2_tal_spear_backengine_norm.dds"
+			texture_specular = "SMX2_tal_spear_backengine_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_14Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_front_floaters_diff.dds"
+			texture_normal = "SMX2_tal_spear_front_floaters_norm.dds"
+			texture_specular = "SMX2_tal_spear_front_floaters_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_15Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_front_floaters_diff.dds"
+			texture_normal = "SMX2_tal_spear_front_floaters_norm.dds"
+			texture_specular = "SMX2_tal_spear_front_floaters_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_16Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_front_floaters_diff.dds"
+			texture_normal = "SMX2_tal_spear_front_floaters_norm.dds"
+			texture_specular = "SMX2_tal_spear_front_floaters_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_17Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_backwing02_diff.dds"
+			texture_normal = "SMX2_tal_spear_backwing02_norm.dds"
+			texture_specular = "SMX2_tal_spear_backwing02_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_18Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_backwing01_diff.dds"
+			texture_normal = "SMX2_tal_spear_backwing01_norm.dds"
+			texture_specular = "SMX2_tal_spear_backwing01_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_19Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_floatingcores_diff.dds"
+			texture_normal = "SMX2_tal_spear_floatingcores_norm.dds"
+			texture_specular = "SMX2_tal_spear_floatingcores_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_20Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_cockpit_diff.dds"
+			texture_normal = "SMX2_tal_spear_cockpit_norm.dds"
+			texture_specular = "SMX2_tal_spear_cockpit_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_21Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_front2_diff.dds"
+			texture_normal = "SMX2_tal_spear_front2_norm.dds"
+			texture_specular = "SMX2_tal_spear_front2_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_22Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_backengine_diff.dds"
+			texture_normal = "SMX2_tal_spear_backengine_norm.dds"
+			texture_specular = "SMX2_tal_spear_backengine_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_23Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_backengine_diff.dds"
+			texture_normal = "SMX2_tal_spear_backengine_norm.dds"
+			texture_specular = "SMX2_tal_spear_backengine_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_24Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_backengine_diff.dds"
+			texture_normal = "SMX2_tal_spear_backengine_norm.dds"
+			texture_specular = "SMX2_tal_spear_backengine_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_25Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_backengine_diff.dds"
+			texture_normal = "SMX2_tal_spear_backengine_norm.dds"
+			texture_specular = "SMX2_tal_spear_backengine_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_26Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_front_floaters_diff.dds"
+			texture_normal = "SMX2_tal_spear_front_floaters_norm.dds"
+			texture_specular = "SMX2_tal_spear_front_floaters_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_27Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_backengine_diff.dds"
+			texture_normal = "SMX2_tal_spear_backengine_norm.dds"
+			texture_specular = "SMX2_tal_spear_backengine_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_28Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_backengine_diff.dds"
+			texture_normal = "SMX2_tal_spear_backengine_norm.dds"
+			texture_specular = "SMX2_tal_spear_backengine_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_29Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_backengine_diff.dds"
+			texture_normal = "SMX2_tal_spear_backengine_norm.dds"
+			texture_specular = "SMX2_tal_spear_backengine_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_30Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_cockpit_diff.dds"
+			texture_normal = "SMX2_tal_spear_cockpit_norm.dds"
+			texture_specular = "SMX2_tal_spear_cockpit_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_31Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_front_floaters_diff.dds"
+			texture_normal = "SMX2_tal_spear_front_floaters_norm.dds"
+			texture_specular = "SMX2_tal_spear_front_floaters_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_32Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_floatingcores_diff.dds"
+			texture_normal = "SMX2_tal_spear_floatingcores_norm.dds"
+			texture_specular = "SMX2_tal_spear_floatingcores_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_33Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_backwing01_diff.dds"
+			texture_normal = "SMX2_tal_spear_backwing01_norm.dds"
+			texture_specular = "SMX2_tal_spear_backwing01_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_34Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_backwing02_diff.dds"
+			texture_normal = "SMX2_tal_spear_backwing02_norm.dds"
+			texture_specular = "SMX2_tal_spear_backwing02_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_35Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_backwing01_diff.dds"
+			texture_normal = "SMX2_tal_spear_backwing01_norm.dds"
+			texture_specular = "SMX2_tal_spear_backwing01_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_36Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_floatingcores_diff.dds"
+			texture_normal = "SMX2_tal_spear_floatingcores_norm.dds"
+			texture_specular = "SMX2_tal_spear_floatingcores_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_37Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_backwing01_diff.dds"
+			texture_normal = "SMX2_tal_spear_backwing01_norm.dds"
+			texture_specular = "SMX2_tal_spear_backwing01_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_38Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_floatingcores_diff.dds"
+			texture_normal = "SMX2_tal_spear_floatingcores_norm.dds"
+			texture_specular = "SMX2_tal_spear_floatingcores_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_39Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_front_floaters_diff.dds"
+			texture_normal = "SMX2_tal_spear_front_floaters_norm.dds"
+			texture_specular = "SMX2_tal_spear_front_floaters_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_40Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_floatingcores_diff.dds"
+			texture_normal = "SMX2_tal_spear_floatingcores_norm.dds"
+			texture_specular = "SMX2_tal_spear_floatingcores_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_42Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_backengine_diff.dds"
+			texture_normal = "SMX2_tal_spear_backengine_norm.dds"
+			texture_specular = "SMX2_tal_spear_backengine_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_43Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_backengine_diff.dds"
+			texture_normal = "SMX2_tal_spear_backengine_norm.dds"
+			texture_specular = "SMX2_tal_spear_backengine_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_44Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_backengine_diff.dds"
+			texture_normal = "SMX2_tal_spear_backengine_norm.dds"
+			texture_specular = "SMX2_tal_spear_backengine_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_45Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_front_floaters_diff.dds"
+			texture_normal = "SMX2_tal_spear_front_floaters_norm.dds"
+			texture_specular = "SMX2_tal_spear_front_floaters_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_46Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_cockpit_diff.dds"
+			texture_normal = "SMX2_tal_spear_cockpit_norm.dds"
+			texture_specular = "SMX2_tal_spear_cockpit_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_47Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_backengine_diff.dds"
+			texture_normal = "SMX2_tal_spear_backengine_norm.dds"
+			texture_specular = "SMX2_tal_spear_backengine_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_48Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_tile_diff.dds"
+			texture_normal = "SMX2_tal_spear_tile_nome.dds"
+			texture_specular = "SMX2_tal_spear_tile_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_49Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_tile_diff.dds"
+			texture_normal = "SMX2_tal_spear_tile_nome.dds"
+			texture_specular = "SMX2_tal_spear_tile_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_52Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_backwing01_diff.dds"
+			texture_normal = "SMX2_tal_spear_backwing01_norm.dds"
+			texture_specular = "SMX2_tal_spear_backwing01_spec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "SMX2_SpearOfAdunUI_powerdown_53Shape"
+			index = 0
+			texture_diffuse = "SMX2_tal_spear_tile_diff.dds"
+			texture_normal = "SMX2_tal_spear_tile_nome.dds"
+			texture_specular = "SMX2_tal_spear_tile_spec.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

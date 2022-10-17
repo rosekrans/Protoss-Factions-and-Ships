@@ -1,0 +1,52 @@
+objectTypes = {
+    pdxmesh = {
+        name = "protoss_tal_01_colossus_mesh"
+        file = "gfx/models/ships/colossus/protoss_tal_01/protoss_tal_01_titan.mesh"
+        scale = 1
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 0
+            texture_diffuse = "mothership_taldarimmain_diff.dds"
+            texture_normal = "mothership_taldarimmain_norm.dds"
+            texture_specular = "mothership_taldarimmain_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 1
+            texture_diffuse = "taldarim_allshield_wh_diffuse.dds"
+            texture_normal = "taldarim_allshield_normal.dds"
+            texture_specular = "taldarim_allshield_specular.dds"
+            shader = "PdxMeshAlphaAdditive"
+        }
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 2
+            texture_diffuse = "mothership_taldarim_collection_diff.dds"
+            texture_normal = "mothership_taldarim_collection_norm.dds"
+            texture_specular = "mothership_taldarim_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 3
+            texture_diffuse = "mothership_taldarim_diff.dds"
+            texture_normal = "mothership_taldarim_norm.dds"
+            texture_specular = "mothership_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 4
+            texture_diffuse = "mothership_taldarim_collection_diff.dds"
+            texture_normal = "mothership_taldarim_collection_norm.dds"
+            texture_specular = "mothership_taldarim_collection_spec.dds"
+            shader = "PdxMeshShip"
+
+        }
+    }
+}

@@ -1,0 +1,936 @@
+objectTypes = {
+	
+	# Color variant #06
+	
+	
+	pdxmesh = {
+		name = "protoss_tal_01_titan_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_titan.mesh"
+		scale = 1.0
+		
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 0
+            texture_diffuse = "mothership_taldarimmain_diff.dds"
+            texture_normal = "mothership_taldarimmain_norm.dds"
+            texture_specular = "mothership_taldarimmain_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 1
+            texture_diffuse = "taldarim_allshield_wh_diffuse.dds"
+            texture_normal = "taldarim_allshield_normal.dds"
+            texture_specular = "taldarim_allshield_specular.dds"
+            shader = "PdxMeshAlphaAdditive"
+        }
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 2
+            texture_diffuse = "mothership_taldarim_collection_diff.dds"
+            texture_normal = "mothership_taldarim_collection_norm.dds"
+            texture_specular = "mothership_taldarim_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 3
+            texture_diffuse = "mothership_taldarim_diff.dds"
+            texture_normal = "mothership_taldarim_norm.dds"
+            texture_specular = "mothership_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 4
+            texture_diffuse = "mothership_taldarim_collection_diff.dds"
+            texture_normal = "mothership_taldarim_collection_norm.dds"
+            texture_specular = "mothership_taldarim_collection_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_tal_01_battleship_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_battleship.mesh"
+		scale = 1.0
+		
+        meshsettings = {
+            name = "Mesh"
+            index = 0
+            texture_diffuse = "carrier_tal_diff.dds"
+            texture_normal = "carrier_tal_norm.dds"
+            texture_specular = "carrier_tal_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh"
+            index = 1
+            texture_diffuse = "taldarim_allshield_diffuse.dds"
+            texture_normal = "taldarim_allshield_normal.dds"
+            texture_specular = "taldarim_allshield_specular.dds"
+            shader = "PdxMeshAlphaAdditive"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_tal_01_colony_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_colony.mesh"
+		scale = 1.0
+		
+        meshsettings = {
+            name = "mesh"
+            index = 0
+            texture_diffuse = "escapeship_taldarim_diff.dds"
+            texture_normal = "escapeship_taldarim_norm.dds"
+            texture_specular = "escapeship_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+    }
+
+	pdxmesh = {
+		name = "protoss_tal_01_transportship_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_transport.mesh"
+		scale = 1.0
+		
+        meshsettings = {
+            name = "mesh"
+            index = 0
+            texture_diffuse = "shuttle_taldarim_diffuse.dds"
+            texture_normal = "shuttle_taldarim_normal.dds"
+            texture_specular = "shuttle_taldarim_specular.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_tal_01_turrets_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_obserbstation.mesh"
+		scale = 1.0
+		
+        meshsettings = {
+            name = "Mesh"
+            index = 0
+            texture_diffuse = "warpprism_taldarim_collection_diff.dds"
+            texture_normal = "warpprism_taldarim_normal.dds"
+            texture_specular = "warpprism_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh"
+            index = 1
+            texture_diffuse = "taldarim_allshield_diffuse.dds"
+            texture_normal = "taldarim_allshield_normal.dds"
+            texture_specular = "taldarim_allshield_specular.dds"
+            shader = "PdxMeshAlphaAdditive"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_tal_01_citadel_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_citadel.mesh"
+		scale = 3.3
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 0
+            texture_diffuse = "mothership_taldarimmain_diff.dds"
+            texture_normal = "mothership_taldarimmain_norm.dds"
+            texture_specular = "mothership_taldarimmain_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 1
+            texture_diffuse = "slayn_missile_turret_diff.dds"
+            texture_normal = "slayn_missile_turret_norm.dds"
+            texture_specular = "slayn_missile_turret_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 2
+            texture_diffuse = "taldarim_shield_generator_diff.dds"
+            texture_normal = "taldarim_shield_generator_norm.dds"
+            texture_specular = "taldarim_shield_generator_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 3
+            texture_diffuse = "taldarim_shield_generator_diff.dds"
+            texture_normal = "taldarim_shield_generator_norm.dds"
+            texture_specular = "taldarim_shield_generator_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 4
+            texture_diffuse = "taldarim_shield_generator_diff.dds"
+            texture_normal = "taldarim_shield_generator_norm.dds"
+            texture_specular = "taldarim_shield_generator_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 5
+            texture_diffuse = "stargate_taldarim_collection_diff.dds"
+            texture_normal = "stargate_taldarim_collection_norm.dds"
+            texture_specular = "stargate_taldarim_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 6
+            texture_diffuse = "pylon_taldarim_collection_diff.dds"
+            texture_normal = "pylon_taldarim_normal.dds"
+            texture_specular = "pylon_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 7
+            texture_diffuse = "mothership_taldarim_collection_diff.dds"
+            texture_normal = "mothership_taldarim_collection_norm.dds"
+            texture_specular = "mothership_taldarim_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 8
+            texture_diffuse = "mothership_taldarim_diff.dds"
+            texture_normal = "mothership_taldarim_norm.dds"
+            texture_specular = "mothership_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 9
+            texture_diffuse = "mothership_taldarimmain_diff.dds"
+            texture_normal = "mothership_taldarimmain_norm.dds"
+            texture_specular = "mothership_taldarimmain_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_tal_01_starfortress_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_starfortress.mesh"
+		scale = 2.8
+		
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 0
+            texture_diffuse = "mothership_taldarimmain_diff.dds"
+            texture_normal = "mothership_taldarimmain_norm.dds"
+            texture_specular = "mothership_taldarimmain_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 1
+            texture_diffuse = "stargate_taldarim_collection_diff.dds"
+            texture_normal = "stargate_taldarim_collection_norm.dds"
+            texture_specular = "stargate_taldarim_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 2
+            texture_diffuse = "nexus_taldarim_diff.dds"
+            texture_normal = "nexus_taldarim_norm.dds"
+            texture_specular = "nexus_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 3
+            texture_diffuse = "nexus_taldarim_diff.dds"
+            texture_normal = "nexus_taldarim_norm.dds"
+            texture_specular = "nexus_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 4
+            texture_diffuse = "nexus_taldarim_diff.dds"
+            texture_normal = "nexus_taldarim_norm.dds"
+            texture_specular = "nexus_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 5
+            texture_diffuse = "pylon_taldarim_collection_diff.dds"
+            texture_normal = "pylon_taldarim_normal.dds"
+            texture_specular = "pylon_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 6
+            texture_diffuse = "mothership_taldarim_collection_diff.dds"
+            texture_normal = "mothership_taldarim_collection_norm.dds"
+            texture_specular = "mothership_taldarim_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 7
+            texture_diffuse = "mothership_taldarim_diff.dds"
+            texture_normal = "mothership_taldarim_norm.dds"
+            texture_specular = "mothership_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Unit_Protoss_Mothership_Wings"
+            index = 8
+            texture_diffuse = "mothership_taldarimmain_diff.dds"
+            texture_normal = "mothership_taldarimmain_norm.dds"
+            texture_specular = "mothership_taldarimmain_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_tal_01_starhold_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_starhold.mesh"
+		scale = 2.3
+		
+        meshsettings = {
+            name = "Mesh"
+            index = 0
+            texture_diffuse = "stargate_taldarim_collection_diff.dds"
+            texture_normal = "stargate_taldarim_collection_norm.dds"
+            texture_specular = "stargate_taldarim_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh"
+            index = 1
+            texture_diffuse = "taldarim_allshield_diffuse.dds"
+            texture_normal = "taldarim_allshield_normal.dds"
+            texture_specular = "taldarim_allshield_specular.dds"
+            shader = "PdxMeshAlphaAdditive"
+        }
+
+        meshsettings = {
+            name = "Mesh"
+            index = 2
+            texture_diffuse = "taldarim_allshield_diffuse.dds"
+            texture_normal = "taldarim_allshield_normal.dds"
+            texture_specular = "taldarim_allshield_specular.dds"
+            shader = "PdxMeshAlphaAdditive"
+        }
+
+        meshsettings = {
+            name = "Mesh"
+            index = 3
+            texture_diffuse = "taldarim_allshield_diffuse.dds"
+            texture_normal = "taldarim_allshield_normal.dds"
+            texture_specular = "taldarim_allshield_specular.dds"
+            shader = "PdxMeshAlphaAdditive"
+        }
+
+        meshsettings = {
+            name = "Mesh"
+            index = 4
+            texture_diffuse = "pylon_taldarim_collection_diff.dds"
+            texture_normal = "pylon_taldarim_normal.dds"
+            texture_specular = "pylon_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_tal_01_starport_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_starport.mesh"
+		scale = 2.0
+		
+        meshsettings = {
+            name = "Mesh"
+            index = 0
+            texture_diffuse = "stargate_taldarim_collection_diff.dds"
+            texture_normal = "stargate_taldarim_collection_norm.dds"
+            texture_specular = "stargate_taldarim_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh"
+            index = 1
+            texture_diffuse = "pylon_taldarim_collection_diff.dds"
+            texture_normal = "pylon_taldarim_normal.dds"
+            texture_specular = "pylon_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_tal_01_outpost_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_outpost.mesh"
+		scale = 2.0
+		
+        meshsettings = {
+            name = "Bldg_Protoss_Pylon_Crystal_02"
+            index = 0
+            texture_diffuse = "pylon_taldarim_collection_diff.dds"
+            texture_normal = "pylon_taldarim_normal.dds"
+            texture_specular = "pylon_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Bldg_Protoss_Pylon_Crystal_02"
+            index = 1
+            texture_diffuse = "pylon_taldarim_collection_diff.dds"
+            texture_normal = "pylon_taldarim_normal.dds"
+            texture_specular = "pylon_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Bldg_Protoss_Pylon_Crystal_02"
+            index = 2
+            texture_diffuse = "pylon_taldarim_collection_diff.dds"
+            texture_normal = "pylon_taldarim_normal.dds"
+            texture_specular = "pylon_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_tal_01_observestation_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_obserbstation.mesh"
+		scale = 2.0
+		
+        meshsettings = {
+            name = "Mesh.002"
+            index = 0
+            texture_diffuse = "warpprism_taldarim_collection_diff.dds"
+            texture_normal = "warpprism_taldarim_normal.dds"
+            texture_specular = "warpprism_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.002"
+            index = 1
+            texture_diffuse = "taldarim_allshield_diffuse.dds"
+            texture_normal = "taldarim_allshield_normal.dds"
+            texture_specular = "taldarim_allshield_specular.dds"
+            shader = "PdxMeshAlphaAdditive"
+		}
+	}
+
+	pdxmesh = {
+		name = "protoss_tal_01_ioncannon_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_ioncannon.mesh"
+		scale = 1.2
+		
+        meshsettings = {
+            name = "Mesh"
+            index = 0
+            texture_diffuse = "slayn_missile_turret_gem_diff.dds"
+            texture_normal = "slayn_missile_turret_gem_norm.dds"
+            texture_specular = "slayn_missile_turret_gem_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh"
+            index = 1
+            texture_diffuse = "slayn_missile_turret_diff.dds"
+            texture_normal = "slayn_missile_turret_norm.dds"
+            texture_specular = "slayn_missile_turret_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_tal_01_constructor_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_constructor.mesh"
+		scale = 1.0
+
+        meshsettings = {
+            name = "Mesh.003"
+            index = 0
+            texture_diffuse = "probe_taldarim_collection_diff.dds"
+            texture_normal = "probe_taldarim_collection_norm.dds"
+            texture_specular = "probe_taldarim_collection_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_tal_01_destroyer_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_destroyer.mesh"
+		scale = 1.0
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 0
+            texture_diffuse = "voidray_taldarim_collection_diff.dds"
+            texture_normal = "voidray_taldarim_collection_norm.dds"
+            texture_specular = "voidray_taldarim_collection_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_tal_01_scienceship_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_science.mesh"
+		scale = 1.0
+
+        meshsettings = {
+            name = "Mesh"
+            index = 0
+            texture_diffuse = "observer_taldarim_collection_diff.dds"
+            texture_normal = "observer_taldarim_collection_norm.dds"
+            texture_specular = "observer_taldarim_collection_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_tal_01_station_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_station.mesh"
+		scale = 1.0
+
+        meshsettings = {
+            name = "Mesh.004"
+            index = 0
+            texture_diffuse = "mothership_taldarimmain_diff.dds"
+            texture_normal = "mothership_taldarimmain_norm.dds"
+            texture_specular = "mothership_taldarimmain_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.004"
+            index = 1
+            texture_diffuse = "mothership_taldarimmain_diff.dds"
+            texture_normal = "mothership_taldarimmain_norm.dds"
+            texture_specular = "mothership_taldarimmain_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.004"
+            index = 2
+            texture_diffuse = "templararchives_taldarim_diff.dds"
+            texture_normal = "templararchives_taldarim_norm.dds"
+            texture_specular = "templararchives_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.004"
+            index = 3
+            texture_diffuse = "templararchives_taldarim_diff.dds"
+            texture_normal = "templararchives_taldarim_norm.dds"
+            texture_specular = "templararchives_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.004"
+            index = 4
+            texture_diffuse = "photoncannon_taldarim_diff.dds"
+            texture_normal = "photoncannon_taldarim_norm.dds"
+            texture_specular = "photoncannon_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_tal_01_wormhole_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_wormhole.mesh"
+		scale = 1.0
+
+        meshsettings = {
+            name = "Mesh"
+            index = 0
+            texture_diffuse = "stargate_taldarim_collection_diff.dds"
+            texture_normal = "stargate_taldarim_collection_norm.dds"
+            texture_specular = "stargate_taldarim_collection_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "protoss_tal_01_terraform_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_terraform.mesh"
+		scale = 1.0
+
+        meshsettings = {
+            name = "Mesh.004"
+            index = 0
+            texture_diffuse = "mothership_taldarimmain_diff.dds"
+            texture_normal = "mothership_taldarimmain_norm.dds"
+            texture_specular = "mothership_taldarimmain_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.004"
+            index = 1
+            texture_diffuse = "mothership_taldarimmain_diff.dds"
+            texture_normal = "mothership_taldarimmain_norm.dds"
+            texture_specular = "mothership_taldarimmain_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.004"
+            index = 2
+            texture_diffuse = "assimilator_taldarim_collection_diff.dds"
+            texture_normal = "assimilator_normal.dds"
+            texture_specular = "assimilator_taldarim_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.004"
+            index = 3
+            texture_diffuse = "taldarim_allshield_diffuse.dds"
+            texture_normal = "taldarim_allshield_normal.dds"
+            texture_specular = "taldarim_allshield_specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.004"
+            index = 4
+            texture_diffuse = "photoncannon_taldarim_diff.dds"
+            texture_normal = "photoncannon_taldarim_norm.dds"
+            texture_specular = "photoncannon_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "protoss_tal_01_research_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_research.mesh"
+		scale = 1.0
+
+        meshsettings = {
+            name = "Mesh.004"
+            index = 0
+            texture_diffuse = "mothership_taldarimmain_diff.dds"
+            texture_normal = "mothership_taldarimmain_norm.dds"
+            texture_specular = "mothership_taldarimmain_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.004"
+            index = 1
+            texture_diffuse = "mothership_taldarimmain_diff.dds"
+            texture_normal = "mothership_taldarimmain_norm.dds"
+            texture_specular = "mothership_taldarimmain_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.004"
+            index = 2
+            texture_diffuse = "twilightcouncil_taldarim_diff.dds"
+            texture_normal = "twilightcouncil_taldarim_norm.dds"
+            texture_specular = "twilightcouncil_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.004"
+            index = 3
+            texture_diffuse = "taldarim_allshield_diffuse.dds"
+            texture_normal = "taldarim_allshield_normal.dds"
+            texture_specular = "taldarim_allshield_specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.004"
+            index = 4
+            texture_diffuse = "photoncannon_taldarim_diff.dds"
+            texture_normal = "photoncannon_taldarim_norm.dds"
+            texture_specular = "photoncannon_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "protoss_tal_01_mining_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_mining.mesh"
+		scale = 1.0
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 0
+            texture_diffuse = "photoncannon_taldarim_diff.dds"
+            texture_normal = "photoncannon_taldarim_norm.dds"
+            texture_specular = "photoncannon_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 1
+            texture_diffuse = "slayn_terrazine_temple_diff.dds"
+            texture_normal = "slayn_terrazine_temple_normal.dds"
+            texture_specular = "slayn_terrazine_temple_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 2
+            texture_diffuse = "slayn_terrazine_temple_diff.dds"
+            texture_normal = "slayn_terrazine_temple_normal.dds"
+            texture_specular = "slayn_terrazine_temple_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 3
+            texture_diffuse = "slayn_terrazine_temple_diff.dds"
+            texture_normal = "slayn_terrazine_temple_normal.dds"
+            texture_specular = "slayn_terrazine_temple_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 4
+            texture_diffuse = "slayn_terrazine_temple_diff.dds"
+            texture_normal = "slayn_terrazine_temple_normal.dds"
+            texture_specular = "slayn_terrazine_temple_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 5
+            texture_diffuse = "mothership_taldarimmain_diff.dds"
+            texture_normal = "mothership_taldarimmain_norm.dds"
+            texture_specular = "mothership_taldarimmain_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 6
+            texture_diffuse = "mothership_taldarimmain_diff.dds"
+            texture_normal = "mothership_taldarimmain_norm.dds"
+            texture_specular = "mothership_taldarimmain_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "protoss_tal_01_cruiser_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_cruiser.mesh"
+		scale = 1.0
+		
+        meshsettings = {
+            name = "Mesh003.004"
+            index = 0
+            texture_diffuse = "tempest_taldarim_diff.dds"
+            texture_normal = "tempest_taldarim_norm.dds"
+            texture_specular = "tempest_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh003.004"
+            index = 1
+            texture_diffuse = "taldarim_allshield_diffuse.dds"
+            texture_normal = "taldarim_allshield_normal.dds"
+            texture_specular = "taldarim_allshield_specular.dds"
+            shader = "PdxMeshAlphaAdditive"
+        }
+
+        meshsettings = {
+            name = "Mesh003.004"
+            index = 2
+            texture_diffuse = "tempest_taldarim_diff.dds"
+            texture_normal = "tempest_taldarim_norm.dds"
+            texture_specular = "tempest_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh003.004"
+            index = 3
+            texture_diffuse = "tempest_taldarim_diff.dds"
+            texture_normal = "tempest_taldarim_norm.dds"
+            texture_specular = "tempest_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh003.004"
+            index = 4
+            texture_diffuse = "tempest_taldarim_diff.dds"
+            texture_normal = "tempest_taldarim_norm.dds"
+            texture_specular = "tempest_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh003.004"
+            index = 5
+            texture_diffuse = "tempest_taldarim_diff.dds"
+            texture_normal = "tempest_taldarim_norm.dds"
+            texture_specular = "tempest_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+		
+	pdxmesh = {
+		name = "protoss_tal_01_corvette_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_corvette.mesh"
+		scale = 1.0
+		
+        meshsettings = {
+            name = "Phoenix_DarkModel"
+            index = 0
+            texture_diffuse = "phoenix_taldarim_collection_diff.dds"
+            texture_normal = "phoenix_taldarim_collection_norm.dds"
+            texture_specular = "phoenix_taldarim_collection_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	
+	pdxmesh = {
+		name = "protoss_tal_01_bomber_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_bomber.mesh"
+		scale = 1.0
+		
+        meshsettings = {
+            name = "Mesh.006"
+            index = 0
+            texture_diffuse = "scouttaldarim_diff.dds"
+            texture_normal = "scouttaldarim_normal.dds"
+            texture_specular = "scouttaldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.006"
+            index = 1
+            texture_diffuse = "Scout_Taldarim_Extra3_Diffuse.dds"
+            texture_normal = "Scout_Taldarim_Extra3_normal.dds"
+            texture_specular = "Scout_Taldarim_Extra3_Specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.006"
+            index = 2
+            texture_diffuse = "Scout_Taldarim_Extra_Diff.dds"
+            texture_normal = "Scout_Taldarim_Extra_norm.dds"
+            texture_specular = "Scout_Taldarim_Extra_Spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.006"
+            index = 3
+            texture_diffuse = "Scout_Taldarim_Extra_Diff.dds"
+            texture_normal = "Scout_Taldarim_Extra_norm.dds"
+            texture_specular = "Scout_Taldarim_Extra_Spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.006"
+            index = 4
+            texture_diffuse = "Scout_Taldarim_Extra_Diff.dds"
+            texture_normal = "Scout_Taldarim_Extra_norm.dds"
+            texture_specular = "Scout_Taldarim_Extra_Spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.006"
+            index = 5
+            texture_diffuse = "Scout_Taldarim_Extra2_Diff.dds"
+            texture_normal = "Scout_Taldarim_Extra2_normal.dds"
+            texture_specular = "Scout_Taldarim_Extra2_Spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_tal_01_fighter_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_intercept.mesh"
+		scale = 1.0
+		
+        meshsettings = {
+            name = "Unit_Protoss_Interceptor"
+            index = 0
+            texture_diffuse = "interceptor_taldarim_collection_diff.dds"
+            texture_normal = "interceptor_taldarim_collection_norm.dds"
+            texture_specular = "interceptor_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_tal_01_cargo_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_transport.mesh"
+		scale = 1.0
+		
+        meshsettings = {
+            name = "Bone_Ship"
+            index = 0
+            texture_diffuse = "shuttle_taldarim_diffuse.dds
+            texture_normal = "shuttle_taldarim_normal.dds"
+            texture_specular = "shuttle_taldarim_specular.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "protoss_tal_01_droppod_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_transport.mesh"
+		scale = 1.0
+		
+        meshsettings = {
+            name = "Bone_Ship"
+            index = 0
+            texture_diffuse = "shuttle_taldarim_diffuse.dds
+            texture_normal = "shuttle_taldarim_normal.dds"
+            texture_specular = "shuttle_taldarim_specular.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+}

@@ -1,0 +1,279 @@
+objectTypes = {
+
+#######  NSC  #######	
+	
+	pdxmesh = {
+		name = "protoss_tal_01_strikecruiser_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_strikecruiser.mesh"
+		scale = 6.9
+		
+        meshsettings = {
+            name = "Mesh"
+            index = 0
+            texture_diffuse = "carrier_taldarim_collection_diff.dds"
+            texture_normal = "carrier_taldarim_collection_norm.dds"
+            texture_specular = "carrier_taldarim_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh"
+            index = 1
+            texture_diffuse = "carrier_taldarim_collection_diff.dds"
+            texture_normal = "carrier_taldarim_collection_norm.dds"
+            texture_specular = "carrier_taldarim_collection_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	pdxmesh = {
+		name = "protoss_tal_01_battlecruiser_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_battlecruiser.mesh"
+		scale = 7.0
+		
+        meshsettings = {
+            name = "Mesh"
+            index = 0
+            texture_diffuse = "voidraytaldarimhd_diff.dds"
+            texture_normal = "voidraytaldarimhd_normal.dds"
+            texture_specular = "voidraytaldarimhd_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_tal_01_support_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_support.mesh"
+		scale = 5.6
+		
+        meshsettings = {
+            name = "Dummy01"
+            index = 0
+            texture_diffuse = "taldarim_allshield_wh_diffuse.dds"
+            texture_normal = "taldarim_allshield_normal.dds"
+            texture_specular = "taldarim_allshield_specular.dds"
+            shader = "PdxMeshAlphaAdditive"
+        }
+
+        meshsettings = {
+            name = "Dummy01"
+            index = 1
+            texture_diffuse = "taldarim_allshield_diffuse.dds"
+            texture_normal = "taldarim_allshield_normal.dds"
+            texture_specular = "taldarim_allshield_specular.dds"
+            shader = "PdxMeshAlphaAdditive"
+        }
+
+        meshsettings = {
+            name = "Dummy01"
+            index = 2
+            texture_diffuse = "oracle_taldarim_diff.dds"
+            texture_normal = "oracle_taldarim_norm.dds"
+            texture_specular = "oracle_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_tal_01_carrier_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_carrier.mesh"
+		scale = 7.3
+		
+        meshsettings = {
+            name = "Bone_ShipRoot"
+            index = 0
+            texture_diffuse = "CarrierbwTaldarim_Diffuse.dds"
+            texture_normal = "Carrierbwtal_Normal.dds"
+            texture_specular = "CarrierbwTaldarim_Specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Bone_ShipRoot"
+            index = 1
+            texture_diffuse = "CarrierCrestTaldarim_Diffuse.dds"
+            texture_normal = "CarrierCrestTaldarim_Normal.dds"
+            texture_specular = "CarrierCrestTaldarim_Specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Bone_ShipRoot"
+            index = 2
+            texture_diffuse = "CarrierCrestTaldarim_Diffuse.dds"
+            texture_normal = "CarrierCrestTaldarim_Normal.dds"
+            texture_specular = "CarrierCrestTaldarim_Specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Bone_ShipRoot"
+            index = 3
+            texture_diffuse = "CarrierCrestTaldarim_Diffuse.dds"
+            texture_normal = "CarrierCrestTaldarim_Normal.dds"
+            texture_specular = "CarrierCrestTaldarim_Specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Bone_ShipRoot"
+            index = 4
+            texture_diffuse = "CarrierCrestTaldarim_Diffuse.dds"
+            texture_normal = "CarrierCrestTaldarim_Normal.dds"
+            texture_specular = "CarrierCrestTaldarim_Specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Bone_ShipRoot"
+            index = 5
+            texture_diffuse = "CarrierCrestTaldarim_Diffuse.dds"
+            texture_normal = "CarrierCrestTaldarim_Normal.dds"
+            texture_specular = "CarrierCrestTaldarim_Specular.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_tal_01_dreadnought_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_dreadnought.mesh"
+		scale = 10.0
+		
+        meshsettings = {
+            name = "Mesh.001"
+            index = 0
+            texture_diffuse = "dreadtal_diff.dds"
+            texture_normal = "dreadtal_norm.dds"
+            texture_specular = "dreadtal_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = (
+		name = "protoss_tal_01_explorationship_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_explore.mesh"
+		scale = 6.3
+		
+        meshsettings = {
+            name = "Mesh.005"
+            index = 0
+            texture_diffuse = "SkyBlade_Taldarim_Diffuse.dds"
+            texture_normal = "SkyBlade_Taldarim_Normal.dds"
+            texture_specular = "SkyBlade_Taldarim_Specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.005"
+            index = 1
+            texture_diffuse = "gateway_taldarim_diff.dds"
+            texture_normal = "gateway_taldarim_normal.dds"
+            texture_specular = "gateway_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.005"
+            index = 2
+            texture_diffuse = "test_diff"
+            texture_normal = "nonormal.dds"
+            texture_specular = "nospec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.005"
+            index = 3
+            texture_diffuse = "SkyBlade_Taldarim_Extra_Diffuse.dds"
+            texture_normal = "SkyBlade_Taldarim_Extra_Normal.dds"
+            texture_specular = "SkyBlade_Taldarim_Extra_Specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.005"
+            index = 4
+            texture_diffuse = "SkyBlade_Taldarim_Extra2_Diffuse.dds"
+            texture_normal = "SkyBlade_Taldarim_Extra2_norm.dds"
+            texture_specular = "SkyBlade_Taldarim_Extra2_Specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.005"
+            index = 5
+            texture_diffuse = "SkyBlade_Taldarim_Extra2_Diffuse.dds"
+            texture_normal = "SkyBlade_Taldarim_Extra2_norm.dds"
+            texture_specular = "SkyBlade_Taldarim_Extra2_Specular.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_tal_01_flagship_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_flagship.mesh"
+		scale = 9.5
+		
+        meshsettings = {
+            name = "Dummy01_disc"
+            index = 0
+            texture_diffuse = "taldarim_allshield_wh_diffuse.dds"
+            texture_normal = "taldarim_allshield_normal.dds"
+            texture_specular = "taldarim_allshield_specular.dds"
+            shader = "PdxMeshAlphaAdditive"
+        }
+
+        meshsettings = {
+            name = "Dummy01_disc"
+            index = 1
+            texture_diffuse = "tempest_taldarim_diff.dds"
+            texture_normal = "tempest_taldarim_norm.dds"
+            texture_specular = "tempest_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Dummy01_disc"
+            index = 2
+            texture_diffuse = "slayn_missile_turret_diff.dds"
+            texture_normal = "slayn_missile_turret_norm.dds"
+            texture_specular = "slayn_missile_turret_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Dummy01_disc"
+            index = 3
+            texture_diffuse = "mothership_taldarim_collection_diff.dds"
+            texture_normal = "mothership_taldarim_collection_norm.dds"
+            texture_specular = "mothership_taldarim_collection_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Dummy01_disc"
+            index = 4
+            texture_diffuse = "mothership_taldarimmain_diff.dds"
+            texture_normal = "mothership_taldarimmain_norm.dds"
+            texture_specular = "mothership_taldarimmain_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Dummy01_disc"
+            index = 5
+            texture_diffuse = "mothership_taldarim_diff.dds"
+            texture_normal = "mothership_taldarim_norm.dds"
+            texture_specular = "mothership_taldarim_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Dummy01_disc"
+            index = 6
+            texture_diffuse = "mothership_taldarimmain_diff.dds"
+            texture_normal = "mothership_taldarimmain_norm.dds"
+            texture_specular = "mothership_taldarimmain_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+}

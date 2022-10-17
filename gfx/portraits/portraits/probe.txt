@@ -1,0 +1,11 @@
+portraits = {
+	#Modz
+	
+	probe 	= {	entity = "portrait_robot_03_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_ai_started" 
+					character_textures = {
+						"gfx/models/portraits/AI/probe.dds"
+									
+					}
+	}
+	
+}

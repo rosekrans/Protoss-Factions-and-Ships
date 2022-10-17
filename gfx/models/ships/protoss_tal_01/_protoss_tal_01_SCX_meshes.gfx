@@ -1,0 +1,79 @@
+objectTypes = {
+
+#######  SCX  #######	
+	
+	pdxmesh = {
+		name = "protoss_tal_01_scx_carrier_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_carrier.mesh"
+		scale = 6.0
+		
+        meshsettings = {
+            name = "Bone_ShipRoot"
+            index = 0
+            texture_diffuse = "CarrierbwTaldarim_Diffuse.dds"
+            texture_normal = "Carrierbwtal_Normal.dds"
+            texture_specular = "CarrierbwTaldarim_Specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Bone_ShipRoot"
+            index = 1
+            texture_diffuse = "CarrierCrestTaldarim_Diffuse.dds"
+            texture_normal = "CarrierCrestTaldarim_Normal.dds"
+            texture_specular = "CarrierCrestTaldarim_Specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Bone_ShipRoot"
+            index = 2
+            texture_diffuse = "CarrierCrestTaldarim_Diffuse.dds"
+            texture_normal = "CarrierCrestTaldarim_Normal.dds"
+            texture_specular = "CarrierCrestTaldarim_Specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Bone_ShipRoot"
+            index = 3
+            texture_diffuse = "CarrierCrestTaldarim_Diffuse.dds"
+            texture_normal = "CarrierCrestTaldarim_Normal.dds"
+            texture_specular = "CarrierCrestTaldarim_Specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Bone_ShipRoot"
+            index = 4
+            texture_diffuse = "CarrierCrestTaldarim_Diffuse.dds"
+            texture_normal = "CarrierCrestTaldarim_Normal.dds"
+            texture_specular = "CarrierCrestTaldarim_Specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Bone_ShipRoot"
+            index = 5
+            texture_diffuse = "CarrierCrestTaldarim_Diffuse.dds"
+            texture_normal = "CarrierCrestTaldarim_Normal.dds"
+            texture_specular = "CarrierCrestTaldarim_Specular.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_tal_01_scx_dreadnought_mesh"
+		file = "gfx/models/ships/protoss_tal_01/protoss_tal_01_dreadnought.mesh"
+		scale = 6.0
+		
+        meshsettings = {
+            name = "Mesh.001"
+            index = 0
+            texture_diffuse = "dreadtal_diff.dds"
+            texture_normal = "dreadtal_norm.dds"
+            texture_specular = "dreadtal_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+}

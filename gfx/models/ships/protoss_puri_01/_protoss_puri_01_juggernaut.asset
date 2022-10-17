@@ -1,0 +1,37 @@
+entity = {
+	name = "protoss_puri_01_juggernaut_entity"
+	pdxmesh = "humanoid_01_titan_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" 
+	
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_titan_ship_hum_01" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_titan_ship_hum_02" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_titan_ship_hum_03" } }
+	
+	}
+	state = { name = "moving" animation = "idle"
+		event =  { trigger_once = yes sound = { soundeffect = "moving_out_titan" } }
+	}
+	state = { name = "death" animation = "death" looping = no 
+		event = { time = 12.5 node = "ship_main" particle = "dreadnought_explosion_particle" keep_particle = yes trigger_once = yes sound = { soundeffect = "amb_titan_ship_death" } }
+	}
+	
+	scale = 1.0
+	
+	game_data = {
+		size = 40
+	}
+}
+
+entity = {
+	name = "protoss_puri_01_juggernaut_core_section_entity"
+	pdxmesh = "protoss_puri_01_flagship_mesh"
+	
+	locator = { name = "xl_gun_01"    position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "xl_gun_02"    position = { 0 0 0 } rotation = { 0 0 0 } }
+	
+	state = { name = "death" state_time = 12.7 }
+	
+	scale = 4
+}

@@ -1,0 +1,13 @@
+
+Nerazim = {
+	archetype = BIOLOGICAL
+	randomized = yes
+	portraits = {
+    	protoss
+	}
+	non_randomized_portraits = {
+		protoss
+	}
+	graphical_culture = protoss_nera_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}

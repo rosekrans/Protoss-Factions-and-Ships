@@ -1,0 +1,199 @@
+﻿@turret = 0.20
+@corvette_scale = 6.5
+@destroyer_scale = 9.5
+@cruiser_scale = 8.7
+@battleship_scale = 16.0
+@missile_scale = 1.0
+@transport_scale = 9.0
+@colonizer_scale = 11.0
+@science_scale = 1.0
+@constructor_scale = 12.0
+@military_station_large = 9.0
+@military_station_medium = 9.0
+@military_station_small = 15.0
+@orbital_station = 17
+@research_station = 13
+@mining_station = 13
+@terraforming_station = 13
+
+@small_trail_W = 10
+@small_trail_L = 60
+@medium_trail_W = 25
+@medium_trail_L = 150
+@large_trail_W = 50
+@large_trail_L =  300
+
+
+##################         	 BATTLESHIP           ########################
+
+# FRAME
+entity = {
+	name = "protoss_puri_01_battleship_entity"
+	pdxmesh = "humanoid_01_battleship_frame_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle"	animation = "idle" animation_blend_time = 4.0 
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_battleship_hum" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_battleship_bass" } }
+	}
+	state = { name = "moving"	animation = "idle" animation_blend_time = 4.0 
+		event = { trigger_once = yes sound = { soundeffect = "moving_out_battleship" } }
+	}
+	state = { name = "death" animation = "death" animation_blend_time = 0.0 chance = 1 looping = no
+		event = { time = 1.0 node = "explosion_locator_01" particle = "ship_burn_particle" }
+		event = { time = 1.0 node = "explosion_locator_01" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		
+		event = { time = 1.7 node = "explosion_locator_02" particle = "ship_burn_particle" }
+		event = { time = 1.7 node = "explosion_locator_02" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		
+		event = { time = 3.7 node = "explosion_locator_03" particle = "ship_burn_particle" }
+		event = { time = 3.7 node = "explosion_locator_03" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		
+		event = { time = 6.0 node = "explosion_locator_04" particle = "ship_burn_particle" }
+		event = { time = 6.0 node = "explosion_locator_04" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		
+		event = { time = 7.3 node = "explosion_locator_05" particle = "ship_burn_particle" }
+		event = { time = 7.3 node = "explosion_locator_05" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		
+		event = { time = 10.7 node = "explosion_locator_02" particle = "ship_burn_particle" }
+		event = { time = 10.7 node = "explosion_locator_02" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		
+		event = { time = 19.9 node = "part2" particle = "large_player_ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
+	}
+	state = { name = "death" animation = "death2" animation_blend_time = 0.0 chance = 1 looping = no
+		event = { time = 8.3 node = "part1_locator" particle = "ship_explosion_air_vent_particle" }
+		event = { time = 8.3 node = "part1_locator" particle = "ship_burn_particle" }
+		event = { time = 8.3 node = "part1_locator" particle = "ship_explosion_particle" }
+		
+		event = { time = 8.3 node = "part2_front_locator" particle = "ship_explosion_air_vent_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 8.3 node = "part2_front_locator" particle = "ship_burn_particle" }
+		event = { time = 12.3 node = "part2_back_locator" particle = "ship_explosion_air_vent_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 12.3 node = "part2_back_locator" particle = "ship_burn_particle" }
+		
+		event = { time = 12.3 node = "part3_locator" particle = "ship_explosion_air_vent_particle" sound = { soundeffect = "ship_explosion"} }
+		event = { time = 12.3 node = "part3_locator" particle = "ship_burn_particle" }
+		event = { time = 12.3 node = "part3_locator" particle = "ship_explosion_particle" }
+		
+		event = { time = 16.5 node = "ship_main" particle = "large_player_ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+	}
+	state = { name = "death" animation = "death3" animation_blend_time = 0.0 chance = 1 looping = no
+		event = { time = 8.0 node = "part1_locator" particle = "ship_explosion_air_vent_particle" }
+		event = { time = 8.0 node = "part1_locator" particle = "ship_burn_particle" }
+		event = { time = 8.0 node = "part1_locator" particle = "ship_explosion_particle" sound = { soundeffect = "ship_explosion"} }
+		
+		event = { time = 8.0 node = "part2_front_locator" particle = "ship_explosion_air_vent_particle" }
+		event = { time = 8.0 node = "part2_front_locator" particle = "ship_burn_particle" }
+		
+		event = { time = 16.5 node = "ship_main" particle = "large_player_ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
+	}
+	
+	scale = 1.0
+	
+	game_data = {
+		size = @battleship_scale
+	}
+	
+	game_data = {
+		size = @battleship_scale
+	}
+}
+
+
+
+# BOW
+entity = {
+	name = "protoss_puri_01_battleship_bow_L1M1S2_entity"
+	pdxmesh = "protoss_empty_mesh"
+	
+}
+
+
+entity = {
+	name = "protoss_puri_01_battleship_bow_L2_entity"
+	pdxmesh = "protoss_empty_mesh"
+
+}
+
+entity = {
+	name = "protoss_puri_01_battleship_bow_M1S2SHB_entity"
+	pdxmesh = "protoss_empty_mesh"
+	#TEMP LOCATOR REPLACE IN SCENE
+	locator = {
+		name = "strike_craft_locator_01"
+		rotation = { 0 0 0 }
+	}
+}
+entity = {
+	name = "protoss_puri_01_battleship_bow_XL1_entity"
+	pdxmesh = "protoss_empty_mesh"
+		
+	locator = { name = "xl_gun_01"    position = { 0 0 0 } rotation = { 0 0 0 } }
+}
+
+
+
+# MID
+entity = {
+	name = "protoss_puri_01_battleship_mid_L2M2_entity"
+	pdxmesh = "protoss_puri_01_battleship_mesh"
+	
+	scale = 5
+
+}
+
+entity = {
+	name = "protoss_puri_01_battleship_mid_L3_entity"
+	pdxmesh = "protoss_puri_01_battleship_mesh"
+	
+	scale = 5
+	
+
+}
+
+entity = {
+	name = "protoss_puri_01_battleship_mid_M4SHB_entity"
+	pdxmesh = "protoss_puri_01_battleship_mesh"
+	#TEMP LOCATOR REPLACE IN SCENE
+	locator = {
+		name = "strike_craft_locator_01"
+		rotation = { -90 0 0 }
+		
+	}
+	
+	scale = 5
+
+}
+
+entity = {
+	name = "protoss_puri_01_battleship_mid_S4LHB_entity"
+	pdxmesh = "protoss_puri_01_battleship_mesh"
+	#TEMP LOCATOR REPLACE IN SCENE
+	locator = {
+		name = "strike_craft_locator_01"
+		rotation = { -90 0 0 }
+	}
+	#TEMP LOCATOR REPLACE IN SCENE
+	locator = {
+		name = "strike_craft_locator_02"
+		rotation = { -90 0 0 }
+	}
+	
+	scale = 5
+
+}
+
+
+
+# STERN
+
+entity = {
+	name = "protoss_puri_01_battleship_stern_L1_entity"
+	pdxmesh = "protoss_empty_mesh"
+
+}
+
+entity = {
+	name = "protoss_puri_01_battleship_stern_M2_entity"
+	pdxmesh = "protoss_empty_mesh"
+
+}

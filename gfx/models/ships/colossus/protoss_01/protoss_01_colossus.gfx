@@ -1,0 +1,70 @@
+objectTypes = {
+    pdxmesh = {
+        name = "protoss_01_colossus_mesh"
+        file = "gfx/models/ships/colossus/protoss_01/protoss_01_colossus.mesh"
+        scale = 1
+
+        meshsettings = {
+            name = "Mesh"
+            index = 0
+            texture_diffuse = "mothership_diffuse.dds"
+            texture_normal = "mothership_normal.dds"
+            texture_specular = "mothership_specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh"
+            index = 1
+            texture_diffuse = "mothership_diffuse.dds"
+            texture_normal = "mothership_normal.dds"
+            texture_specular = "mothership_specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh"
+            index = 2
+            texture_diffuse = "mothership_diffuse.dds"
+            texture_normal = "mothership_normal.dds"
+            texture_specular = "mothership_specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh"
+            index = 3
+            texture_diffuse = "mothership_diffuse.dds"
+            texture_normal = "mothership_normal.dds"
+            texture_specular = "mothership_specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh"
+            index = 4
+            texture_diffuse = "mothership_diffuse.dds"
+            texture_normal = "mothership_normal.dds"
+            texture_specular = "mothership_specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh"
+            index = 5
+            texture_diffuse = "mothership_diffuse.dds"
+            texture_normal = "mothership_normal.dds"
+            texture_specular = "mothership_specular.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh"
+            index = 6
+            texture_diffuse = "mothership_shield_diffuse.dds"
+            texture_normal = "mothership_shield_normal.dds"
+            texture_specular = "mothership_shield_specular.dds"
+            shader = "PdxMeshAlphaAdditive"
+        }
+    }
+}

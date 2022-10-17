@@ -1,0 +1,43 @@
+objectTypes = {
+
+#######  SCX  #######	
+	
+	pdxmesh = {
+		name = "protoss_01_scx_carrier_mesh"
+		file = "gfx/models/ships/protoss_01/protoss_01_carrier.mesh"
+		scale = 6.0
+		
+        meshsettings = {
+            name = "Bone_ShipRoot"
+            index = 0
+            texture_diffuse = "bwcarrier_Diffuse.dds"
+            texture_normal = "bwcarrier_Normal.dds"
+            texture_specular = "bwcarrier_Specular.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "protoss_01_scx_dreadnought_mesh"
+		file = "gfx/models/ships/protoss_01/protoss_01_dreadnought.mesh"
+		scale = 6.0
+		
+        meshsettings = {
+            name = "Mesh.001"
+            index = 0
+            texture_diffuse = "dread_diff.dds"
+            texture_normal = "dread_norm.dds"
+            texture_specular = "dread_spec.dds"
+            shader = "PdxMeshShip"
+        }
+
+        meshsettings = {
+            name = "Mesh.001"
+            index = 1
+            texture_diffuse = "dreadex_diff.dds"
+            texture_normal = "dreadex_norm.dds"
+            texture_specular = "dreadex_spec.dds"
+            shader = "PdxMeshShip"
+		}
+	}
+}

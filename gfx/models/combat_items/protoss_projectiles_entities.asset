@@ -1,0 +1,22 @@
+entity = {
+	name = "protoss_tempest_weapon_entity"
+	cull_radius = 1.0
+	
+	default_state = idle
+	state = { name = "idle"
+		event = { time = 0 particle = "neutron_torpedoes_idle_particle" keep_particle = yes }
+		#event = { time = 0 particle = "proton_torpedoes_idle_trail_particle" keep_particle = yes }
+	}
+	scale = 12
+}
+entity = {
+	name = "protoss_arkship_orbital_strike_entity"
+	cull_radius = 1.0
+	
+	default_state = idle
+	state = { name = "idle"
+		event = { time = 0 particle = "large_plasma_accelerator_idle_particle" keep_particle = yes }
+		event = { time = 0 particle = "large_plasma_accelerator_idle_drops_particle" keep_particle = yes }
+	}
+	scale = 8
+}
