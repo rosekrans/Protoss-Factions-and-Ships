@@ -1,4 +1,4 @@
-version="3.5.2"
+version="3.8.*"
 tags={
 	"Gameplay"
 	"Species"
@@ -6,5 +6,5 @@ tags={
 }
 name="Protoss Factions and Ships"
 picture="thumbnail.png"
-supported_version="3.5.2"
+supported_version="3.8.*"
 remote_file_id="2848657948"
